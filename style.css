@@ -1,0 +1,57 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: black;
+  color: white;
+  background-image: url('https://images.pexels.com/photos/15521601/pexels-photo-15521601/free-photo-of-chinese-red-lanterns-hanging-over-a-city-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: rgb(197, 156, 81);
+}
+
+.card {
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+.carousel-img{
+  width: 100%;
+  height: 90vh;
+}
+.card-img-top{
+  height: 300px;
+}
+.container-fluid{
+  color: white;
+  font-weight: bold;
+
+}
+.navbar{
+  background-color: rgb(150, 58, 58);
+  padding: 30px;
+ 
+}
+
+.img-logo{
+  width: 60px;
+}
+footer{
+  background-color:rgb(150, 58, 58) ;
+  color: rgb(205, 154, 59);
+}

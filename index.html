@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Events</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <style></style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"
+          ><img
+            src="https://media.gettyimages.com/id/1366320219/vector/family-design-element.jpg?s=612x612&w=gi&k=20&c=3Xt_X6RXkn5w1UPLfKT-_LQ2sHEeb3NFGeAAKKPOFng="
+            alt=""
+            class="img-logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <h1>Welcome to Community Events</h1>
+      <p>Connecting people and promoting local happenings!</p>
+    </div>
+
+    <div id="featuredEvents" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.pexels.com/photos/2833037/pexels-photo-2833037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="d-block carousel-img"
+            alt="Event 1"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Talent show</h5>
+            <p>A talent show, or talent contest is an event in which participants perform the arts of singing, dancing, lip-syncing, acting, martial arts, playing an instrument, poetry, comedy or other activities to showcase skills. Many talent shows are performances rather than contests, but some are actual contests.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.pexels.com/photos/2168292/pexels-photo-2168292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="d-block carousel-img"
+            alt="Event 2"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Fun Run</h5>
+            <p>Fun Run or Walkathon. A fun run or walkathon is a fantastic way to engage the community in a healthy activity while raising money for a cause. Often ...</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.pexels.com/photos/1206101/pexels-photo-1206101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="d-block carousel-img"
+            alt="Event 3"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cultural food Festival</h5>
+            <p>Organize a cultural food festival. Celebrate a variety of cultures and backgrounds by organizing a cultural food festival. For example, invite members of ...</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#featuredEvents"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#featuredEvents"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section id="events" class="container my-5">
+      <h2 class="mb-4">Upcoming Events</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://cdn.prod.website-files.com/61f29c609f84a86e418fbcfb/6476faf2e578b119cfc45b8f_Orchestrate%20Community%20Gardening%20Days.webp"
+              class="card-img-top"
+              alt="Event 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gardening Day</h5>
+              <p class="card-text">
+                A brilliant way of uniting the community to have some fun while
+                simultaneously doing something incredibly productive is to host
+                a gardening day.
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Launch static backdrop modal
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                      Gardening Day
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">  A brilliant way of uniting the community to have some fun while
+                    simultaneously doing something incredibly productive is to host
+                    a gardening day.</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt84OZJ492Ocy0If84p7gXsOTxYcpE9pN9TS53Vv2E9NrexClkty7yciCh_iCOJuThCdk&usqp=CAU"
+              class="card-img-top"
+              alt="Event 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Charity concert</h5>
+              <p class="card-text">
+                Charity concert. Organising a benefit concert can be a fun and
+                impactful way to gather the community and raise awareness or
+                funds for a specific cause.
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Launch static backdrop modal
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                      Charity concert
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">Charity concert. Organising a benefit concert can be a fun and
+                    impactful way to gather the community and raise awareness or
+                    funds for a specific cause.</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://www.viptogo.com/wp-content/uploads/2022/09/blood-drive-community-event.jpg"
+              class="card-img-top"
+              alt="Event 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Donation drive</h5>
+              <p class="card-text">
+                Community-wide donation drive. Organising a donation drive is
+                one of the most fantastic community event ideas for bringing the
+                community.. 
+              </p>
+            </div>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Launch static backdrop modal
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                      Donation drive
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">Community-wide donation drive. Organising a donation drive is
+                    one of the most fantastic community event ideas for bringing the
+                    community together .</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="container my-5">
+      
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcT_5pSTqNSj90Biqh0bNBy2fRALT3DJXttQfJJZW9T3zMhlBhieXqQA5ZUC8CcszYC2"
+              class="card-img-top"
+              alt="Event 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cultural celebrations</h5>
+              <p class="card-text">
+                Cultural Celebrations. Celebrate different cultures. Show
+                appreciation for the diversity and cultural backgrounds of those
+                in your community.
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Launch static backdrop modal
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                      Cultural celebrations
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body"> Cultural Celebrations. Celebrate different cultures. Show
+                    appreciation for the diversity and cultural backgrounds of those
+                    in your community..</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://media.istockphoto.com/id/1469754711/vector/trivia-time-neon-sign-geometric-frame-decoration-quiz-show-label-on-brick-wall-vector-stock.jpg?s=612x612&w=0&k=20&c=7D-_PFacHKOD6pGYMaLa0FkR9PdKjXqmb1zZ4tIhEDQ="
+              class="card-img-top"
+              alt="Event 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Trivia night</h5>
+              <p class="card-text">
+                Trivia Night. An outdoor trivia night is an excellent way to
+                promote community, friendly competition, and teamwork. Everyone
+                splits into teams and puts .
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Launch static backdrop modal
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                      Trivia night
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">Trivia Night. An outdoor trivia night is an excellent way to
+                    promote community, friendly competition, and teamwork. Everyone
+                    splits into teams and puts .</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://www.eventbrite.com.au/blog/wp-content/uploads/2022/06/Webp.net-resizeimage-1-768x512.png"
+              class="card-img-top"
+              alt="Event 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Film screening</h5>
+              <p class="card-text">
+                Film screening. Who doesn't enjoy watching a great film on a big
+                screen with a bucket of popcorn? You can organise a film
+                screening at a local school .
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Launch static backdrop modal
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                      Film screening
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body"> Film screening. Who doesn't enjoy watching a great film on a big
+                    screen with a bucket of popcorn? You can organise a film
+                    screening at a local school .</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="container my-5">
+      <h2>About Us</h2>
+      <p>
+        We are a passionate group of individuals committed to bringing the
+        community together through exciting events and meaningful connections.
+      </p>
+    </section>
+
+    <section id="contact" class="container my-5">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Your Name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Your Email"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="4"
+            placeholder="Your Message"
+          ></textarea>
+        </div>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#thankYouModal"
+        >
+          Submit
+        </button>
+      </form>
+    </section>
+
+    <div
+      class="modal fade"
+      id="thankYouModal"
+      tabindex="-1"
+      aria-labelledby="thankYouModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="thankYouModalLabel">Thank You!</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Your message has been sent. We will get back to you shortly!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 @rejijubil all Licence autherised</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+   
+  </body>
+</html>
